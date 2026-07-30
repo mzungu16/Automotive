@@ -194,7 +194,79 @@ h2.service_title2 {
     text-transform: uppercase;
     font-family: Montserrat-Thin;
     font-size: 22px;
+    border: 0;
     background-color: #c62314;
     color: #ffffff;
     padding: 15px 55px;
+}
+
+.pricing_section {
+    background-color: #efefef;
+}
+
+.pricing_inner {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.pricing_title {
+    font-family: Montserrat-Thin;
+    font-size: 48px;
+    color: #130e27;
+}
+
+.pricing_cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 22px;
+}
+
+.pricing_item {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 317px;
+    height: 390px;
+}
+
+.pricing_tarif {
+    font-family: PTSerif-Regular;
+    font-size: 22px;
+    color: #161616;
+}
+
+.pricing_cost {
+    color: #c62314;
+    font-size: 60px;
+    font-family: Montserrat-Bold;
+    text-transform: uppercase;
+}
+
+.pricing_activity {
+    margin: 5px;
+    font-size: 20px;
+    font-family: PTSerif-Regular;
+    color: #161616;
+}
+
+.pricing_action {
+    background-color: #130e27;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Montserrat-Bold;
+    padding: 15px 80px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 10px;
+}
+
+.pricing_action2 {
+    background-color: #c62314;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Montserrat-Bold;
+    padding: 15px 80px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 0;
 }
